@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import csv
 import os
 
+
+print("demarrage du scripts. Veuillez patientez...")
 liens = []
 categories = []
 categories_name = []
@@ -80,8 +82,9 @@ for li in category:
 
             informations = [url_prod, upc_prod, title_prod, price_inc_prod, price_exc_prod,
                             number_available, prod_des_prod, category_prod, review_rating_prod1, image_url]
-            print(informations)
 
             with open(categori_name + " .csv", "a", newline="", encoding='utf-8') as csv_file:
                 writer = csv.writer(csv_file, delimiter=',')
                 writer.writerow(informations)
+print("fin du scripts.Merci de consulter les fichiers CSV et le repertoire image")
+
