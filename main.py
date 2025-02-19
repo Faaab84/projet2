@@ -86,5 +86,5 @@ for li in category:
             with open(categori_name + " .csv", "a", newline="", encoding='utf-8') as csv_file:
                 writer = csv.writer(csv_file, delimiter=',')
                 writer.writerow(informations)
-print("fin du scripts.Merci de consulter les fichiers CSV et le repertoire image")
+print("Fin du scripts.Merci de consulter les fichiers CSV et le repertoire image")
 
