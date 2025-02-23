@@ -15,7 +15,7 @@ Installation des pacquets dans l'environnement virtuel permettant le fonctionnem
 
 # Etape 3
 Lancer le scripts
-    - Ecrire la commande "pyton main.py" pour lancer l'execution du scripts 
+    - Ecrire la commande "python main.py" pour lancer l'execution du scripts 
     - Veuillez patientez jusqu'a la fin du programme.
 
 # Etape 4
