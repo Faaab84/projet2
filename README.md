@@ -8,7 +8,7 @@ Création d'un environnement virtuel (depuis windows)
     - Extraire l'archive projet2-main.zip afin d'avoir accés au repertoire portant le nom projet2-main
     - Une fois dans ce repertoire faites un clique droit et ouvrir terminal.
     - Ecrire la commande "python -m venv projet_2"
-    - Puis "Projet_2\Scripts\activate" afin d'activer l'environnement virtuel.
+    - Puis "projet_2\Scripts\activate" afin d'activer l'environnement virtuel.
 # Etape 2
 Installation des pacquets dans l'environnement virtuel permettant le fonctionnement du scripts
     - Ecrire la commande "pip install -r requirements.txt"
