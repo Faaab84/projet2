@@ -82,7 +82,6 @@ for li in category:
 
             informations = [url_prod, upc_prod, title_prod, price_inc_prod, price_exc_prod,
                             number_available, prod_des_prod, category_prod, review_rating_prod1, image_url]
-
             with open(categori_name + " .csv", "a", newline="", encoding='utf-8') as csv_file:
                 writer = csv.writer(csv_file, delimiter=',')
                 writer.writerow(informations)
