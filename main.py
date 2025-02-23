@@ -79,7 +79,7 @@ for li in category:
             image_filename = f"images/{upc_prod}.jpg"
             with open(image_filename, 'wb') as file:
                 file.write(image_response.content)
-
+ 
             informations = [url_prod, upc_prod, title_prod, price_inc_prod, price_exc_prod,
                             number_available, prod_des_prod, category_prod, review_rating_prod1, image_url]
             with open(categori_name + " .csv", "a", newline="", encoding='utf-8') as csv_file:
